@@ -1,0 +1,23 @@
+* { margin:0; padding: 0;}
+body {font:12px/18px arial; color:#333;}
+
+
+#kapsayici { width:820px; margin: 0 auto; }
+#ust { background-color:#DDD; margin-bottom: 20px; margin-top:20px; }
+#ust h1 { font:bold 32px/normal arial; padding: 20px 0; text-align: center; }
+#ust h1 a { color:#c00; text-decoration:none; }
+#ust h1 a:hover{color:#666;}
+
+
+#ana { overflow: hidden; }
+#icerik {float:left;width:500px;}
+
+#sag {float:right; width:300px;}
+
+
+#sag h1 { background-color:#DDD; font:bold 12px/normal arial; padding: 10px; }
+#sag ul { list-style: square outside; padding-left:10px; margin: 10px 0 0; }
+#sag ul li { margin: 5px;}
+
+#alt { background-color:#DDD; margin-bottom: 20px; margin-top:20px; }
+#alt p {padding: 20px 10px;}

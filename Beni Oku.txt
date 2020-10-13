@@ -1,0 +1,12 @@
+
+Ana dizinde bulunan DB.sql dosyasýný phpmyadmin'den import edin.
+Daha sonra ise;
+Projeyi bilgisayarýnýzda deðiþtirmek için 
+ana dizin üzerindeki ayar.php sayfasýnda bulunan
+aþaðýdaki satýrlarý kendi ayarlarýnýza göre deðiþtirmelisiniz.
+Host adý, kullanýcý adý, parola ve veritabaný adýný
+kendi ayarlarýnýza göre deðiþtirmeyi unutmayýn.
+
+
+@mysql_connect("localhost", "root", "12345")
+mysql_select_db("veritabanim", $db);
